@@ -68,10 +68,10 @@ app.prepare().then(() => {
     //     oneSignalApiKey: process.env.ONESIGNAL_API_KEY,
     //   }),
     // },
-    filesAdapter: new S3Adapter(process.env.S3_ACCESS_KEY, process.env.S3_SECRET_KEY, PARSE_APP.s3Bucket, {
-      region: process.env.S3_REGION,
-      directAccess: process.env.S3_DIRECT_ACCESS,
-    }),
+    // filesAdapter: new S3Adapter(process.env.S3_ACCESS_KEY, process.env.S3_SECRET_KEY, PARSE_APP.s3Bucket, {
+    //  region: process.env.S3_REGION,
+    //  directAccess: process.env.S3_DIRECT_ACCESS,
+    // }),
   });
 
   // Serve the Parse API on the /parse URL prefix
@@ -139,7 +139,7 @@ function addCron() {
 
     // backgroundJob
     crond.putJob('backgroundJob', null);
-    crond.addCron('backgroundJob', '0 */10 * * * *'); // per 10 minutes
+    crond.addCron('backgroundJob', '*/10 * * * * *'); // per 10 minutes
 
     // start
     crond.start();

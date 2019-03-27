@@ -291,7 +291,7 @@ class App extends React.Component<IProps, IState> {
     });
 
     for (let i = 0, l = mergeProjects.length; i < l; i++) {
-      mergeProjects[i].activeCnt = 0;
+      mergeProjects[i].activeCnt = (mergeProjects[i].CommitCount || 0) + (mergeProjects[i].IssuesEvent || 0);
       projects.forEach((p: TProject) => {
         if (mergeProjects[i].projectId === p.projectId) {
           mergeProjects[i] = { ...p };
@@ -326,34 +326,6 @@ class App extends React.Component<IProps, IState> {
             </Row>
           </StyledLayoutContent>
         </Layout>
-        <StyledLayoutSider width={400}>
-          <h2>2018 OSS Contributon</h2>
-          <Divider />
-          <p>
-            <b style={{ fontSize: 16 }}>Recently Events</b>
-          </p>
-          <div style={{ height: 10 }} />
-          <div>
-            <Timeline>
-              {events.map((event: TEvent, eventIdx: number) => {
-                if (
-                  event.type === 'IssueCommentEvent' ||
-                  event.type === 'IssuesEvent' ||
-                  event.type === 'PullRequestEvent' ||
-                  event.type === 'PushEvent'
-                ) {
-                  return (
-                    <Timeline.Item key={eventIdx} dot={getEventIcon(event.type)}>
-                      {getEventString(event)}
-                    </Timeline.Item>
-                  );
-                } else {
-                  return null;
-                }
-              })}
-            </Timeline>
-          </div>
-        </StyledLayoutSider>
       </Layout>
     );
   }

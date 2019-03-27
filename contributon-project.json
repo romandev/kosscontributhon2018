@@ -1,206 +1,27 @@
 {
   "project": [{
-      "projectId": "ankus",
-      "projectName": "ankus",
-      "description": "ankus - Lite for web data analysis",
+      "projectId": "gdgsuwon",
+      "projectName": "Flutter sample app 1",
+      "description": "Hello world",
       "mentor": [{
-        "name": "장동훈",
-        "profileUrl": "https://github.com/onycom-ankus"
+        "name": "Jinho",
+        "profileUrl": "https://github.com/gdgsuwon"
       }],
-      "Repository": ["https://github.com/onycom-ankus/contributhon2018"]
-    },
-    {
-      "projectId": "chromium",
-      "projectName": "Chromium / Blink",
-      "description": "Chromium / Blink 프로젝트 기여하기",
+      "Repository": ["https://github.com/gdgsuwon/solocoding2019"],
+      "CommitCount": 2,
+      "IssuesEvent": 3,
+      "activeCnt": 5
+    }, {
+      "projectId": "gdgsuwon2",
+      "projectName": "Flutter sample app 2",
+      "description": "Hello world",
       "mentor": [{
-        "name": "",
-        "profileUrl": ""
+        "name": "Jinho",
+        "profileUrl": "https://github.com/gdgsuwon"
       }],
-      "Repository": []
-    },
-    {
-      "projectId": "keras",
-      "projectName": "Keras(+Tensorflow) Korean Documentation",
-      "description": "영어로 작성된 멋진 케라스 튜토리얼을 한글화하여 케라스가 널리&쉽게 사용되도록 기여합니다",
-      "mentor": [{
-          "name": "김태영",
-          "profileUrl": "https://github.com/tykimos"
-        },
-        {
-          "name": "전미정",
-          "profileUrl": "https://github.com/MijeongJeon"
-        }
-      ],
-      "Repository": ["https://github.com/KerasKorea/KEKOxTutorial"]
-    },
-    {
-      "projectId": "cubrid",
-      "projectName": "CMS with CUBRID DBMS",
-      "description": "CUBRID DBMS를 적용한 CMS(Content Management System)",
-      "mentor": [{
-        "name": "",
-        "profileUrl": ""
-      }],
-      "Repository": ["https://github.com/cubrid-cms"]
-    },
-    {
-      "projectId": "gitshare",
-      "projectName": "GitShare",
-      "description": "Share your code beautifully. Anywhere. - gitCodeShare.com",
-      "mentor": [{
-          "name": "김동우",
-          "profileUrl": "https://github.com/gimdongwoo"
-        },
-        {
-          "name": "장기영",
-          "profileUrl": "https://github.com/thomasJang"
-        }
-      ],
-      "Repository": ["https://github.com/kosslab-kr/gitCodeShare.com", "https://github.com/kosslab-kr/kosscontributhon2018"]
-    },
-    {
-      "projectId": "guider",
-      "projectName": "Guider",
-      "description": "a system-wide performance analyzer",
-      "mentor": [{
-        "name": "이평화",
-        "profileUrl": "https://github.com/iipeace"
-      }],
-      "Repository": ["https://github.com/kosslab-kr/guider"]
-    },
-    {
-      "projectId": "it_chain",
-      "projectName": "it-chain",
-      "description": "Lightweight & Customizable Private Block Chain",
-      "mentor": [{
-        "name": "이준범",
-        "profileUrl": "https://github.com/junbeomlee"
-      }, {
-        "name": "안휘",
-        "profileUrl": "https://github.com/byron1st"
-      }],
-      "Repository": ["https://github.com/it-chain"]
-    },
-    {
-      "projectId": "netfilter",
-      "projectName": "Netfilter",
-      "description": "Netfilter 프로젝트 기여하기",
-      "mentor": [{
-        "name": "",
-        "profileUrl": ""
-      }],
-      "Repository": []
-    },
-    {
-      "projectId": "openstack",
-      "projectName": "OpenStack",
-      "description": "OpenStack 컨트리뷰션 - 방대한 프로젝트 저장소들을 위한 국제화, 문서화 지원 및 도구 기여",
-      "mentor": [{
-        "name": "최영락",
-        "profileUrl": "https://github.com/ianychoi"
-      }, {
-        "name": "신호철",
-        "profileUrl": "https://github.com/Shinhocheol"
-      }, {
-        "name": "조성수",
-        "profileUrl": "https://github.com/ppiyakk2"
-      }, {
-        "name": "장태희",
-        "profileUrl": "https://github.com/janghe11"
-      }, {
-        "name": "공용준",
-        "profileUrl": "https://github.com/sstrato"
-      }, {
-        "name": "강성진",
-        "profileUrl": "https://github.com/ujuc"
-      }],
-      "Repository": ["https://github.com/openstack-kr/contributhon-2018-team1", "https://github.com/openstack-kr/contributhon-2018-team2", "https://github.com/kosslab-kr/openstack-controller"]
-    },
-    {
-      "projectId": "presto_music",
-      "projectName": "Presto Music",
-      "description": "웹 기술로 네이티브 뮤직 플레이어를 개발합니다.",
-      "mentor": [{
-        "name": "소현섭",
-        "profileUrl": "https://github.com/iodes"
-      }],
-      "Repository": ["https://github.com/kosslab-kr/Presto.Contributhon"]
-    },
-    {
-      "projectId": "tizen_xamarin",
-      "projectName": "Tizen C#/Xamarin Sample App",
-      "description": "C#/Xamarin을 활용한 Tizen Sample App 개발",
-      "mentor": [{
-        "name": "손기성",
-        "profileUrl": ""
-      }],
-      "Repository": ["https://github.com/kosslab-kr/Tizen-CSharp-Projects"]
-    },
-    {
-      "projectId": "tizen_nnapi",
-      "projectName": "Tizen NN API and Runtime",
-      "description": "Tizen Platform을 활용한 On-Device AI 제품 개발",
-      "mentor": [{
-        "name": "손기성",
-        "profileUrl": ""
-      }],
-      "Repository": ["https://github.com/kosslab-kr/Tizen-NN-Runtime"]
-    },
-    {
-      "projectId": "uftrace",
-      "projectName": "uftrace",
-      "description": "uftrace 프로젝트 기여하기",
-      "mentor": [{
-          "name": "송태웅",
-          "profileUrl": "https://github.com/taeung"
-        },
-        {
-          "name": "박한범",
-          "profileUrl": ""
-        },
-        {
-          "name": "김재중",
-          "profileUrl": ""
-        }
-      ],
-      "Repository": ["https://github.com/kosslab-kr/uftrace"]
-    },
-    {
-      "projectId": "webos",
-      "projectName": "webOS OSE",
-      "description": "webOS Open Source Edition 프로젝트 기여하기",
-      "mentor": [{
-        "name": "배창혁, 김민재, 강성재, 고석하",
-        "profileUrl": ""
-      }],
-      "Repository": ["https://github.com/webosce"]
-    },
-    {
-      "projectId": "gureum",
-      "projectName": "구름입력기",
-      "description": "macOS를 위한 새로운 한글 입력기",
-      "mentor": [{
-        "name": "정윤원",
-        "profileUrl": ""
-      }],
-      "Repository": ["https://github.com/gureum/gureum"]
-    },
-    {
-      "projectId": "kaggle_kernel_ko",
-      "projectName": "캐글 커널 한글화",
-      "description": "캐글 속 커널 한글화 작업을 통한 데이터 사이언스 대중화",
-      "mentor": [{
-        "name": "이유한",
-        "profileUrl": "https://github.com/qkqkfldis1"
-      }, {
-        "name": "강천성",
-        "profileUrl": "https://github.com/kcs93023"
-      }, {
-        "name": "김준태",
-        "profileUrl": "https://github.com/OPAYA"
-      }],
-      "Repository": ["https://github.com/kosslab-kr/Kaggle_KR"]
+      "Repository": ["https://github.com/gdgsuwon/solocoding2019"],
+      "CommitCount": 3,
+      "activeCnt": 10
     }
   ]
 }
